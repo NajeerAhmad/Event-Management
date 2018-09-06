@@ -28,7 +28,7 @@ export class AddEventComponent implements OnInit {
     };
   }
 
-
+  // add event
   addEvent() {
     let data = {
       title: this.event.title,
